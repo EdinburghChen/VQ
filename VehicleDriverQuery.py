@@ -26,7 +26,7 @@ txt車牌 = st.text_input(
 # 顯示文字方塊的值
 #st.write(txt車牌)
 #建立資料庫連線
-conn=sqlite3.connect("./db/bmdb.db")
+conn=sqlite3.connect("./bmdb.db")
 
 try:
   # 建立資料庫連線 SQLite
